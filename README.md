@@ -28,6 +28,10 @@ configtxgen --version
 ```sh
 ./fabricOps.sh start
 ```
+##MINIKUBE
+minikube start --mount-string /home/myusername:/host --mount
+
+Luego cambiar los path de yaml a "host"
 
 Create the namespace and launch the workload:
 
